@@ -1,0 +1,62 @@
+[0.005s] Invoking command in '/home/lcg/ros2_learning_examples/build/interactive_marker_demo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lcg/ros2_learning_examples/interactive_marker_demo -DCMAKE_INSTALL_PREFIX=/home/lcg/ros2_learning_examples/install/interactive_marker_demo
+[0.073s] -- The C compiler identification is GNU 11.4.0
+[0.125s] -- The CXX compiler identification is GNU 11.4.0
+[0.132s] -- Detecting C compiler ABI info
+[0.181s] -- Detecting C compiler ABI info - done
+[0.188s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.188s] -- Detecting C compile features
+[0.189s] -- Detecting C compile features - done
+[0.191s] -- Detecting CXX compiler ABI info
+[0.256s] -- Detecting CXX compiler ABI info - done
+[0.262s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.263s] -- Detecting CXX compile features
+[0.263s] -- Detecting CXX compile features - done
+[0.266s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.359s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.418s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.445s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.449s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.455s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.468s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.481s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.512s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.514s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.570s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.589s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.611s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.616s] -- Looking for pthread.h
+[0.667s] -- Looking for pthread.h - found
+[0.667s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.722s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.722s] -- Found Threads: TRUE  
+[0.763s] -- Found visualization_msgs: 4.8.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+[0.800s] -- Found interactive_markers: 2.3.2 (/opt/ros/humble/share/interactive_markers/cmake)
+[0.850s] -- Configuring done
+[0.856s] -- Generating done
+[0.859s] -- Build files have been written to: /home/lcg/ros2_learning_examples/build/interactive_marker_demo
+[0.865s] Invoked command in '/home/lcg/ros2_learning_examples/build/interactive_marker_demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lcg/ros2_learning_examples/interactive_marker_demo -DCMAKE_INSTALL_PREFIX=/home/lcg/ros2_learning_examples/install/interactive_marker_demo
+[0.866s] Invoking command in '/home/lcg/ros2_learning_examples/build/interactive_marker_demo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lcg/ros2_learning_examples/build/interactive_marker_demo -- -j8 -l8
+[0.904s] [ 50%] [32mBuilding CXX object CMakeFiles/interactive_marker_server.dir/src/interactive_marker_server.cpp.o[0m
+[2.937s] [100%] [32m[1mLinking CXX executable interactive_marker_server[0m
+[3.027s] [100%] Built target interactive_marker_server
+[3.034s] Invoked command in '/home/lcg/ros2_learning_examples/build/interactive_marker_demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lcg/ros2_learning_examples/build/interactive_marker_demo -- -j8 -l8
+[3.041s] Invoking command in '/home/lcg/ros2_learning_examples/build/interactive_marker_demo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lcg/ros2_learning_examples/build/interactive_marker_demo
+[3.045s] -- Install configuration: ""
+[3.045s] -- Installing: /home/lcg/ros2_learning_examples/install/interactive_marker_demo/lib/interactive_marker_demo/interactive_marker_server
+[3.045s] -- Set runtime path of "/home/lcg/ros2_learning_examples/install/interactive_marker_demo/lib/interactive_marker_demo/interactive_marker_server" to ""
+[3.045s] -- Installing: /home/lcg/ros2_learning_examples/install/interactive_marker_demo/share/ament_index/resource_index/package_run_dependencies/interactive_marker_demo
+[3.045s] -- Installing: /home/lcg/ros2_learning_examples/install/interactive_marker_demo/share/ament_index/resource_index/parent_prefix_path/interactive_marker_demo
+[3.046s] -- Installing: /home/lcg/ros2_learning_examples/install/interactive_marker_demo/share/interactive_marker_demo/environment/ament_prefix_path.sh
+[3.046s] -- Installing: /home/lcg/ros2_learning_examples/install/interactive_marker_demo/share/interactive_marker_demo/environment/ament_prefix_path.dsv
+[3.046s] -- Installing: /home/lcg/ros2_learning_examples/install/interactive_marker_demo/share/interactive_marker_demo/environment/path.sh
+[3.046s] -- Installing: /home/lcg/ros2_learning_examples/install/interactive_marker_demo/share/interactive_marker_demo/environment/path.dsv
+[3.046s] -- Installing: /home/lcg/ros2_learning_examples/install/interactive_marker_demo/share/interactive_marker_demo/local_setup.bash
+[3.046s] -- Installing: /home/lcg/ros2_learning_examples/install/interactive_marker_demo/share/interactive_marker_demo/local_setup.sh
+[3.046s] -- Installing: /home/lcg/ros2_learning_examples/install/interactive_marker_demo/share/interactive_marker_demo/local_setup.zsh
+[3.046s] -- Installing: /home/lcg/ros2_learning_examples/install/interactive_marker_demo/share/interactive_marker_demo/local_setup.dsv
+[3.046s] -- Installing: /home/lcg/ros2_learning_examples/install/interactive_marker_demo/share/interactive_marker_demo/package.dsv
+[3.046s] -- Installing: /home/lcg/ros2_learning_examples/install/interactive_marker_demo/share/ament_index/resource_index/packages/interactive_marker_demo
+[3.046s] -- Installing: /home/lcg/ros2_learning_examples/install/interactive_marker_demo/share/interactive_marker_demo/cmake/interactive_marker_demoConfig.cmake
+[3.046s] -- Installing: /home/lcg/ros2_learning_examples/install/interactive_marker_demo/share/interactive_marker_demo/cmake/interactive_marker_demoConfig-version.cmake
+[3.046s] -- Installing: /home/lcg/ros2_learning_examples/install/interactive_marker_demo/share/interactive_marker_demo/package.xml
+[3.048s] Invoked command in '/home/lcg/ros2_learning_examples/build/interactive_marker_demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lcg/ros2_learning_examples/build/interactive_marker_demo
