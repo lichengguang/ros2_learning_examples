@@ -1,0 +1,133 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-208005cd2bdec967be64.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "interactive_marker_tutorials",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "basic_controls::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-basic_controls-5ad53485cd11961fffbf.json",
+					"name" : "basic_controls",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cube::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cube-e09843f8b73ce84fe813.json",
+					"name" : "cube",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "interactive_marker_tutorials_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-interactive_marker_tutorials_uninstall-3232b439265942fa3cf3.json",
+					"name" : "interactive_marker_tutorials_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "menu::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-menu-9eb693d6dc449037d787.json",
+					"name" : "menu",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pong::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pong-d928b7078dd522acec81.json",
+					"name" : "pong",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pong_library::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pong_library-fbf5c88b7bfb41190373.json",
+					"name" : "pong_library",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "selection::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-selection-a90c03c196e969e4a204.json",
+					"name" : "selection",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_marker::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_marker-b377c7625124097e3d52.json",
+					"name" : "simple_marker",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-b8d6bff50eafbc1887bb.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/lcg/ros2_learning_examples/build/interactive_marker_tutorials",
+		"source" : "/home/lcg/ros2_learning_examples/interactive_marker_tutorials"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

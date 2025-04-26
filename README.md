@@ -4,7 +4,8 @@
 本仓库包含一系列工作中用到的ROS2技术，学习记录之 。
 
 ## 当前功能包
-- `interactive_marker_demo`: 交互式标记控制示例
+- `interactive_marker_demo`: 交互式标记控制简单示例
+- `interactive_marker_tutorials`: 交互式标记教程(多个示例，主要研究C++实现)
 
 ## 通用环境要求
 - ubuntu22.04
@@ -18,12 +19,12 @@ wget http://fishros.com/install -O fishros && bash fishros
 # 克隆仓库
 git clone https://github.com/lichengguang/ros2_learning_examples.git
 
-# 构建制定功能包
+# 构建功能包
 cd ros2_learning_examples
-./interactive_marker_demo/build.sh
+./interactive_marker_tutorials/build.sh
 
-# 运行指定功能包
-./interactive_marker_demo/run.sh
+# 运行功能包
+./interactive_marker_tutorials/run.sh
 
 # 可视化
 rviz2
@@ -32,8 +33,11 @@ rviz2
 ## 项目结构
 ```
 ros2_learning_examples/
-├── interactive_marker_demo/  # 交互标记示例
-│   ├── README.md             # 详细使用说明
-│   └── ...                   # 功能包文件
-└── ...                       # 其他功能包
+├── interactive_marker_demo/      # 交互标记示例
+├── interactive_marker_tutorials/ # 交互标记教程(C++)
+│   ├── README.md                 # 详细使用说明
+│   └── build.sh                  # 编译脚本
+│   └── run.sh                    # 运行脚本
+│   └── ...                    
+└── ...                           # 其他功能包
 ```

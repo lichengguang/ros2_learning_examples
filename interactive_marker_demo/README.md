@@ -3,6 +3,8 @@
 ## 功能概述
 本功能包演示了ROS2中Interactive Markers的使用，实现了一个可通过rviz2交互控制的3D标记。
 
+文档:https://wiki.ros.org/interactive_markers
+
 ## 详细功能
 - **3D标记控制**:
   - X/Y/Z轴独立移动控制
