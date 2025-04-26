@@ -1,22 +1,23 @@
-### AL ###
-#Template for AL projects for Dynamics 365 Business Central
-#launch.json folder
+# ROS2项目忽略规则
+/build/
+/install/
+/log/
+
+# 编译生成的文件
+*.pyc
+*.so
+*.o
+*.a
+
+# 编辑器临时文件
+*.swp
+*.bak
+*~
+
+# IDE特定文件
 .vscode/
-#Cache folder
-.alcache/
-#Symbols folder
-.alpackages/
-#Snapshots folder
-.snapshots/
-#Testing Output folder
-.output/
-#Extension App-file
-*.app
-#Rapid Application Development File
-rad.json
-#Translation Base-file
-*.g.xlf
-#License-file
-*.flf
-#Test results file
-TestResults.xml
+.idea/
+
+# 系统文件
+.DS_Store
+Thumbs.db
