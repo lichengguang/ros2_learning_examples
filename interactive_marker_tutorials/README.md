@@ -3,6 +3,9 @@
 ## 项目简介
 ROS2交互式标记教程的C++实现，包含多种交互式标记示例。
 
+参考官方文档:https://wiki.ros.org/rviz/Tutorials/Interactive%20Markers%3A%20Getting%20Started
+
+
 ## 编译和运行
 ### 使用build.sh编译
 ```bash
@@ -10,13 +13,13 @@ ROS2交互式标记教程的C++实现，包含多种交互式标记示例。
 chmod +x build.sh
 
 # 编译项目
-./build.sh
+bash build.sh
 ```
 
 ### 使用run.sh运行示例
 ```bash 
 # 运行交互式菜单
-./run.sh
+bash run.sh
 
 # 根据菜单选择示例(1-6):
 # 1. Basic Controls (基本控制)
@@ -43,11 +46,27 @@ rviz2
 
 ## 示例说明
 1. **Basic Controls**: 基础6自由度控制，展示平移和旋转交互
+
+    ![Basic Controls](./images/basic_controls.png)
+
 2. **Cube**: 立方体交互示例，演示简单几何体控制  
+
+    ![Basic Controls](./images/cube.png)
 3. **Selection**: 对象选择功能，展示交互式选择机制
+
+    ![Basic Controls](./images/selection.png)
+
 4. **Simple Marker**: 简单标记演示，基础交互标记实现
+
+    ![Basic Controls](./images/simple_marker.png)
+
 5. **Menu**: 右键菜单功能，展示上下文菜单交互
+
+    ![Basic Controls](./images/menu.png)
+
 6. **Pong Game**: 乒乓球游戏交互，展示复杂交互应用
+
+    ![Basic Controls](./images/pong.png)
 
 ## 常见问题排查
 ### 在RViz2中看不到标记

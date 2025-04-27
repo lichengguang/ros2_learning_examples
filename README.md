@@ -4,7 +4,6 @@
 本仓库包含一系列工作中用到的ROS2技术，学习记录之 。
 
 ## 当前功能包
-- `interactive_marker_demo`: 交互式标记控制简单示例
 - `interactive_marker_tutorials`: 交互式标记教程(多个示例，主要研究C++实现)
 
 ## 通用环境要求
@@ -21,10 +20,10 @@ git clone https://github.com/lichengguang/ros2_learning_examples.git
 
 # 构建功能包
 cd ros2_learning_examples
-./interactive_marker_tutorials/build.sh
+bash interactive_marker_tutorials/build.sh
 
 # 运行功能包
-./interactive_marker_tutorials/run.sh
+bash interactive_marker_tutorials/run.sh
 
 # 可视化
 rviz2
@@ -33,7 +32,6 @@ rviz2
 ## 项目结构
 ```
 ros2_learning_examples/
-├── interactive_marker_demo/      # 交互标记示例
 ├── interactive_marker_tutorials/ # 交互标记教程(C++)
 │   ├── README.md                 # 详细使用说明
 │   └── build.sh                  # 编译脚本
